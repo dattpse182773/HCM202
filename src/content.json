@@ -1,0 +1,106 @@
+{
+  "turns": [
+    {
+      "year": "Năm 1858 - Triều Nguyễn",
+      "title": "Hạm Đội Pháp Tấn Công Đà Nẵng",
+      "desc": "Thực dân Pháp nổ súng tại Đà Nẵng. Các quan lại đề xuất chính sách 'Bế quan tỏa cảng', cấm tuyệt đối giao thương phương Tây. Bạn quyết định phân bổ nguồn lực thế nào?",
+      "opt": {
+        "p1": 35,
+        "p2": 35,
+        "p3": 30
+      }
+    },
+    {
+      "year": "Năm 1930 - Bác Hồ Soạn Thảo Cương Lĩnh",
+      "title": "Định Hướng 'Chánh Cương Tắt' Của Đảng",
+      "desc": "Bác Hồ vạch ra con đường: 'Giành độc lập dân tộc làm tiền đề để tiến lên Xã hội cộng sản'. Quyết sách nguồn lực của bạn?",
+      "opt": {
+        "p1": 50,
+        "p2": 25,
+        "p3": 25
+      }
+    },
+    {
+      "year": "Năm 1945 - Chính Quyền Non Trẻ",
+      "title": "Kháng Chiến Vừa Kiến Quốc",
+      "desc": "Giữ vững chính quyền non trẻ trước thế 'ngàn cân treo sợi tóc', vừa kháng chiến chống thực dân vừa kiến thiết đất nước.",
+      "opt": {
+        "p1": 45,
+        "p2": 20,
+        "p3": 35
+      }
+    },
+    {
+      "year": "Năm 1954 - Điện Biên Phủ & Giơ-ne-vơ",
+      "title": "Đàm Phán Ngoại Giao Đa Phương",
+      "desc": "Kết hợp sức mạnh quân sự trên chiến trường với ngoại giao tại bàn đàm phán đa phương quốc tế.",
+      "opt": {
+        "p1": 40,
+        "p2": 30,
+        "p3": 30
+      }
+    },
+    {
+      "year": "Năm 1975 - Thống Nhất Đất Nước",
+      "title": "Bao Vây Cấm Vận & Khôi Phục",
+      "desc": "Khôi phục kinh tế sau chiến tranh, đối mặt với thế bao vây cấm vận và khủng hoảng kinh tế.",
+      "opt": {
+        "p1": 50,
+        "p2": 15,
+        "p3": 35
+      }
+    },
+    {
+      "year": "Năm 1986 - Đại Hội VI Đổi Mới",
+      "title": "Cột Mốc Đổi Mới Toàn Diện",
+      "desc": "Xóa bỏ cơ chế bao cấp khép kín, chuyển sang kinh tế thị trường định hướng XHCN, giữ vững độc lập tự chủ.",
+      "opt": {
+        "p1": 40,
+        "p2": 40,
+        "p3": 20
+      }
+    },
+    {
+      "year": "Năm 1995 - Bình Thường Hóa Việt - Mỹ & ASEAN",
+      "title": "Hội Nhập Khu Vực & Toàn Cầu",
+      "desc": "Phá thế bao vây cấm vận, gia nhập ASEAN, mở rộng ngoại giao đa phương hóa, đa dạng hóa.",
+      "opt": {
+        "p1": 35,
+        "p2": 45,
+        "p3": 20
+      }
+    },
+    {
+      "year": "Năm 2007 - Gia Nhập WTO",
+      "title": "Mở Cửa Thương Mại Toàn Cầu",
+      "desc": "Gia nhập WTO, hàng hóa ngoại tràn vào, yêu cầu phát triển kinh tế nội lực để giữ vững tự chủ.",
+      "opt": {
+        "p1": 30,
+        "p2": 50,
+        "p3": 20
+      }
+    },
+    {
+      "year": "Năm 2021 - Trường Phái Ngoại Giao Cây Tre",
+      "title": "Định Hình Đường Lối Đổi Ngoại",
+      "desc": "Giữ vững bộ rễ Độc lập - Tự chủ, phát triển thân chắc và cành uyển chuyển linh hoạt 'Dĩ bất biến ứng vạn biến'.",
+      "opt": {
+        "p1": 35,
+        "p2": 40,
+        "p3": 25
+      }
+    },
+    {
+      "year": "Tình huống vận dụng · Bán dẫn & AI",
+      "title": "Hợp Tác Công Nghệ Cao (Nvidia)",
+      "desc": "Trong tình huống giả định, Việt Nam thu hút hợp tác công nghệ cao. Bạn cân bằng phát triển nhân lực, hội nhập và bảo vệ chủ quyền như thế nào?",
+      "opt": {
+        "p1": 35,
+        "p2": 45,
+        "p3": 20
+      }
+    }
+  ],
+  "theory": "\n        <div class=\"grid-3\">\n            <div class=\"panel\">\n                <h2 style=\"color:var(--gold-star);\">1. Độc Lập Dân Tộc Là Tiền Đề Tiến Lên CNXH</h2>\n                <div style=\"background:rgba(255,42,42,0.1); border-left:3px solid var(--red-star); padding:0.8rem; font-style:italic; font-size:0.85rem; margin-bottom:0.8rem; line-height:1.5;\">\n                    \"Làm tư sản dân quyền cách mạng và thổ địa cách mạng để đi tới xã hội cộng sản.\"\n                </div>\n                <div class=\"citation-tag\">📖 Nguồn: Hồ Chí Minh: Toàn tập, NXB Chính trị quốc gia Sự thật, Hà Nội, 2011, t. 3, tr. 1</div>\n                \n                <ul style=\"padding-left:1.2rem; font-size:0.85rem; line-height:1.6; margin-top:0.8rem;\">\n                    <li>Độc lập dân tộc là mục tiêu trước hết, là cơ sở và tiền đề quyết định để xây dựng CNXH.</li>\n                    <li>Độc lập thực chất: Dân phải có tự do, cơm no, áo ấm, hạnh phúc.</li>\n                </ul>\n                <div class=\"citation-tag\" style=\"margin-top:0.4rem;\">📖 Nguồn: Giáo trình Tư tưởng Hồ Chí Minh, NXB Chính trị quốc gia Sự thật, Hà Nội, 2021, Chương III, tr. 88</div>\n            </div>\n\n            <div class=\"panel\">\n                <h2 style=\"color:var(--cyan-neon);\">2. CNXH Bảo Đảm Độc Lập Vững Chắc</h2>\n                <div style=\"background:rgba(0,242,254,0.1); border-left:3px solid var(--cyan-neon); padding:0.8rem; font-style:italic; font-size:0.85rem; margin-bottom:0.8rem; line-height:1.5;\">\n                    \"Chỉ có chủ nghĩa xã hội, chủ nghĩa cộng sản mới giải phóng được các dân tộc bị áp bức và những người lao động trên thế giới khỏi ách nô lệ.\"\n                </div>\n                <div class=\"citation-tag\">📖 Nguồn: Hồ Chí Minh: Toàn tập, NXB Chính trị quốc gia Sự thật, Hà Nội, 2011, t. 12, tr. 563</div>\n\n                <ul style=\"padding-left:1.2rem; font-size:0.85rem; line-height:1.6; margin-top:0.8rem;\">\n                    <li>CNXH tạo ra cơ sở kinh tế - kỹ thuật hiện đại, củng cố quốc phòng - an ninh.</li>\n                    <li>Xây dựng chế độ do Nhân dân làm chủ, tạo sức mạnh nội sinh bảo vệ Tổ quốc.</li>\n                </ul>\n                <div class=\"citation-tag\" style=\"margin-top:0.4rem;\">📖 Nguồn: Giáo trình Tư tưởng Hồ Chí Minh, NXB Chính trị quốc gia Sự thật, Hà Nội, 2021, Chương III, tr. 90</div>\n            </div>\n\n            <div class=\"panel\">\n                <h2 style=\"color:var(--green-neon);\">3. Điều Kiện Bảo Đảm Độc Lập & CNXH</h2>\n                <ul style=\"padding-left:1.2rem; font-size:0.85rem; line-height:1.7;\">\n                    <li><strong>1. Sự lãnh đạo tuyệt đối của Đảng Cộng sản:</strong> Nhân tố quyết định thắng lợi.</li>\n                    <li><strong>2. Khối Đại đoàn kết dân tộc:</strong> Nền tảng liên minh Công - Nông - Tri thức.</li>\n                    <li><strong>3. Đoàn kết quốc tế:</strong> Gắn sức mạnh dân tộc với sức mạnh thời đại; chủ động mở cửa hợp tác, không tự cô lập.</li>\n                </ul>\n                <div class=\"citation-tag\" style=\"margin-top:0.8rem;\">📖 Nguồn: Giáo trình Tư tưởng Hồ Chí Minh, NXB Chính trị quốc gia Sự thật, Hà Nội, 2021, Chương III, tr. 92 - 93</div>\n            </div>\n        </div>",
+  "cases": "\n        <div class=\"grid-3\">\n            <div class=\"media-card\">\n                <img class=\"media-img\" src=\"https://commons.wikimedia.org/wiki/Special:FilePath/French_ships_at_Danang_1858.jpg\" alt=\"Pháp tấn công Đà Nẵng 1858\">\n                <div class=\"media-caption\">📷 Tư liệu: Hạm đội Pháp tấn công Đà Nẵng (1858). Nguồn: Wikimedia Commons.</div>\n                <h3 style=\"color:var(--red-star); font-size:1.05rem; margin-bottom:0.4rem;\">🛑 CASE 1: Triều Nguyễn (Thế kỷ 19) - Độc lập tự chủ nhưng khép kín</h3>\n                <p style=\"font-size:0.85rem; color:#cbd5e1; line-height:1.5;\">\n                    <strong>Bài học:</strong> Đóng cửa \"Bế quan tỏa cảng\" khiến đất nước suy yếu, công nghệ lạc hậu. Độc lập tự chủ <strong>KHÔNG CÓ NGHĨA LÀ KHÉP KÍN</strong>.\n                </p>\n                <div class=\"citation-tag\">📖 Đối chiếu: Giáo trình TTHCM (2021), tr. 93</div>\n            </div>\n\n            <div class=\"media-card\">\n                <img class=\"media-img\" src=\"https://commons.wikimedia.org/wiki/Special:FilePath/President_George_W._Bush_and_Prime_Minister_Phan_Van_Khai_of_Vietnam_deliver_statements_to_the_media_in_the_Oval_Office.jpg\" alt=\"Thủ tướng Phan Văn Khải 2005\">\n                <div class=\"media-caption\">📷 Tư liệu: Thủ tướng Phan Văn Khải tại Nhà Trắng (2005) trước khi đàm phán WTO. Nguồn: US White House.</div>\n                <h3 style=\"color:var(--green-neon); font-size:1.05rem; margin-bottom:0.4rem;\">🟢 CASE 2: Đổi Mới & WTO (1986 - Nay)</h3>\n                <p style=\"font-size:0.85rem; color:#cbd5e1; line-height:1.5;\">\n                    <strong>Vận dụng:</strong> \"Ngoại giao Cây tre\" — Bộ rễ vững chắc về chính trị - kinh tế giúp Việt Nam chủ động gia nhập WTO, mở rộng hợp tác thương mại quốc tế.\n                </p>\n                <div class=\"citation-tag\">📖 Đối chiếu: Văn kiện Đại hội XIII của Đảng</div>\n            </div>\n\n            <div class=\"media-card\">\n                <img class=\"media-img\" src=\"https://commons.wikimedia.org/wiki/Special:FilePath/12-inch_silicon_wafer.jpg\" alt=\"Phiến Bán dẫn Silicon\">\n                <div class=\"media-caption\">📷 Tư liệu: Phiến Bán dẫn Silicon 12-inch. Nguồn: Wikimedia Commons.</div>\n                <h3 style=\"color:var(--gold-star); font-size:1.05rem; margin-bottom:0.4rem;\">💻 CASE 3: Kỷ Nguyên Bán Dẫn</h3>\n                <p style=\"font-size:0.85rem; color:#cbd5e1; line-height:1.5;\">\n                    <strong>Thời sự:</strong> Hợp tác công nghệ cao đặt ra yêu cầu phát triển nhân lực, năng lực nghiên cứu và nội lực kinh tế.\n                </p>\n            </div>\n        </div>"
+}

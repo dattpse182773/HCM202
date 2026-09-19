@@ -1,0 +1,4 @@
+export const initialStats = [50,50,50,50];
+export function allocate(values,index,value){const next=[...values];next[index]=value;const others=[0,1,2].filter(i=>i!==index);const sum=values[others[0]]+values[others[1]];next[others[0]]=Math.round((100-value)*(sum?values[others[0]]/sum:.5));next[others[1]]=100-value-next[others[0]];return next;}
+export function health(s){return Math.max(0,Math.min(100,Math.round(s.reduce((a,b)=>a+b,0)/4*(1-Math.abs(s[0]-s[1])/100*.8))));}
+export function decide(stats,values,opt){const [a,b,c]=values;const points=Math.max(10,Math.min(100,Math.round(100-Math.hypot(a-opt.p1,b-opt.p2,c-opt.p3)*1.85)));const changes=[Math.round((a+c)/5-6),Math.round(b/2.5-6),Math.round((a+b)/4-5),Math.round(a/3-5)];const next=stats.map((v,i)=>Math.max(0,Math.min(100,v+changes[i])));const failure=next[1]<20?'Hội nhập quá thấp: nguy cơ cô lập.':next[1]>80&&next[0]<30?'Nội lực chưa theo kịp hội nhập: nguy cơ lệ thuộc.':null;return {stats:next,points,failure};}
