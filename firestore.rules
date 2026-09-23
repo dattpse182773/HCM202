@@ -1,0 +1,30 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /leaderboard/{userId} {
+      allow read: if true;
+      allow create: if validScore(userId) && request.resource.data.createdAt == request.time && request.resource.data.updatedAt == request.time;
+      allow update: if validScore(userId)
+                    && request.resource.data.totalScore >= resource.data.totalScore
+                    && request.resource.data.createdAt == resource.data.createdAt
+                    && request.resource.data.updatedAt == request.time;
+      allow delete: if false;
+    }
+    function validScore(userId) {
+      return request.auth != null
+        && request.auth.uid == userId
+        && request.resource.data.keys().hasOnly(['uid','playerName','quizScore','bambooScore','totalScore','completedAt','createdAt','updatedAt','gameVersion'])
+        && request.resource.data.uid == request.auth.uid
+        && request.resource.data.playerName is string
+        && request.resource.data.playerName.size() >= 1
+        && request.resource.data.playerName.size() <= 40
+        && request.resource.data.quizScore is int
+        && request.resource.data.quizScore >= 0 && request.resource.data.quizScore <= 1000
+        && request.resource.data.bambooScore is int
+        && request.resource.data.bambooScore >= 0 && request.resource.data.bambooScore <= 500
+        && request.resource.data.totalScore == request.resource.data.quizScore + request.resource.data.bambooScore
+        && request.resource.data.totalScore <= 1500
+        && request.resource.data.gameVersion == 1;
+    }
+  }
+}
